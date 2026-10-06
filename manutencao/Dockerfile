@@ -4,7 +4,7 @@ FROM nginx:1.27-alpine
 
 WORKDIR /usr/share/nginx
 
-COPY pagina/ .
+COPY site/ .
 
 EXPOSE 80
 
